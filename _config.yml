@@ -113,7 +113,7 @@ author:
   email            :
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin-square"
+      icon: "fas fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sohaib-khuram/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -146,7 +146,7 @@ footer:
 include:
   - .htaccess
   - _pages
-
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
