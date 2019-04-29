@@ -2,7 +2,7 @@
 title: "About Me"
 permalink: /about/
 header:
-  image: <img src="/images/white_house.jpg" width="500" height="300" />
+  image: "/images/david-everett-strickler-196946-unsplash.jpg"
 ---
 
 I'm a data scientist who excels at machine learning, exploratory data analysis, and time series analysis. I spend most of my time working on a few things:
