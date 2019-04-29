@@ -11,16 +11,16 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Sohaib Khuram"
 title_separator          : "-"
 name                     : "Sohaib Khuram"
-description              : "Data science portfolio"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Data Science Portfolio"
+url                      : "https://sohaibk321.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -82,6 +82,13 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -100,23 +107,17 @@ analytics:
 # Site Author
 author:
   name             : "Sohaib Khuram"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data science portfolio."
+  avatar           : "/images/bio-profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Data Science Portfolio"
   location         : "McLean, VA"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.linkedin.com/in/sohaib-khuram/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sohaibk321"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/sohaib-khuram/"
 
 # Site Footer
 footer:
@@ -145,7 +146,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _posts
 
 exclude:
   - "*.sublime-project"
@@ -282,7 +282,8 @@ defaults:
       comments: # true
       share: true
       related: true
-   # _pages
+
+  # _pages
   - scope:
       path: ""
       type: pages
