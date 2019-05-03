@@ -16,4 +16,5 @@ based on said trend.
 
 First, I clustered companies from the S&P 500 based around their daily returns and volatility using K-means. While trying the minimize inertia, the within-clusters sum of squares, I get
 6 clusters being the most optimal. The graph below shows how each company is separated and the model seems to do this mainly based around returns.
-![alt]({{ site.url }}{{ site.baseurl }}/images/quant-analysis/cluster-results.png)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/quant-analysis/cluster-results.PNG)
